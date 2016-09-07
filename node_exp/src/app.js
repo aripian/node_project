@@ -10,31 +10,24 @@ nodeApp.config(function ($routeProvider) {
             controller: 'mainController'
         })
 
-        // route for the about page
         .when('/charts', {
-            templateUrl: 'views/charts.html',
-            controller: 'aboutController'
+            templateUrl: 'views/charts.html'
         })
 
-        // route for the contact page
         .when('/tables', {
-            templateUrl: 'views/tables.html',
-            controller: 'contactController'
+            templateUrl: 'views/tables.html'
         })
 
         .when('/forms', {
-            templateUrl: 'views/forms.html',
-            controller: 'contactController'
+            templateUrl: 'views/forms.html'
         })
 
         .when('/bootstrapsgrid', {
-            templateUrl: 'views/bootstrapsgrid.html',
-            controller: 'contactController'
+            templateUrl: 'views/bootstrapsgrid.html'
         })
 
         .when('/bootstrapselement', {
-            templateUrl: 'views/bootstrapselement.html',
-            controller: 'contactController'
+            templateUrl: 'views/bootstrapselement.html'
         });;
 });
 
@@ -42,12 +35,4 @@ nodeApp.config(function ($routeProvider) {
 nodeApp.controller('mainController', function ($scope) {
     // create a message to display in our view
     $scope.message = 'Everyone come and see how good I look!';
-});
-
-nodeApp.controller('aboutController', function ($scope) {
-    $scope.message = 'Look! I am an about page.';
-});
-
-nodeApp.controller('contactController', function ($scope) {
-    $scope.message = 'Contact us! JK. This is just a demo.';
 });
