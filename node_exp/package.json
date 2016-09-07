@@ -1,0 +1,22 @@
+{
+  "name": "node_exp",
+  "version": "0.0.0",
+  "description": "node_exp",
+  "main": "server.js",
+  "author": {
+    "name": "User"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "async": "^2.0.1",
+    "bootstrap": "^3.3.7",
+    "bower": "^1.7.9",
+    "colors": "^1.1.2",
+    "express": "^4.14.0",
+    "font-awesome": "^4.6.3",
+    "grunt": "^1.0.1",
+    "jquery": "^3.1.0",
+    "sequelize": "^3.24.1"
+  }
+}
