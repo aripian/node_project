@@ -18,12 +18,16 @@ nodeApp.config(function ($routeProvider) {
             templateUrl: 'views/tables.html'
         })
 
-        .when('/forms', {
+        .when('/forms', {   
             templateUrl: 'views/forms.html'
         })
 
         .when('/bootstrapsgrid', {
             templateUrl: 'views/bootstrapsgrid.html'
+        })
+
+         .when('/nik', {
+            templateUrl: 'views/nik.html'
         })
 
         .when('/bootstrapselement', {
